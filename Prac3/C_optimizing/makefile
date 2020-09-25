@@ -1,6 +1,6 @@
 .RECIPEPREFIX +=
 CC = arm-linux-gnueabihf-g++
-CFLAGS = -lm -lrt -funroll-loops
+CFLAGS = -lm -lrt -O1 -Os
 INCLUDE = -ITools
 
 PROG = bin/*
